@@ -35,8 +35,7 @@ Convertir los datos no estructurados en datos estructurados ayuda a que el proce
 
 Un ejemplo de extracción e interpretación
 
-** Datos no estructurados **
-
+** Datos no estructurados**
 
 	 Hi,  
 	  
@@ -47,18 +46,25 @@ Un ejemplo de extracción e interpretación
 	Luckily no one is injured, but the chandelier is damaged beyond repair.  
 	  
 	Attached is an invoice and some images of the destroyed chandelier.
+	
+	Deepak Jamal  
+	contract no: HC12-223873923  
+	123 Main Street  
+	10008 New York City  
+	(718) 123 45678
+
 
 **Salida del modelo: datos estructurados en JSON**
-    {  
-        "name":  "Deepak",  
-        "surname":  "Jamal",  
-        "address":  "123 Main Street, 10008 New York City, NY",  
-        "phone":"+1 718 123 45678",  
-        "contract_no":  "HC12-223873923",  
-        "claim_description":  "Yesterday [Dec-8, 2024], while playing with a friend, my 9-year-old son Rajad kicked a soccer ball against the chandelier in the living room, which then broke from its holder and fell onto the floor and shattered (it was made of glass).\nLuckily no one is injured, but the chandelier is damaged beyond repair.\n"  
-        }
+	{  
+		"name":  "Deepak",  
+		"surname":  "Jamal",  
+		"address":  "123 Main Street, 10008 New York City, NY",  
+		"phone":"+1 718 123 45678",  
+		"contract_no":  "HC12-223873923",  
+		"claim_description":  "Yesterday [Dec-8, 2024], while playing with a friend, my 9-year-old son Rajad kicked a soccer ball against the chandelier in the living room, which then broke from its holder and fell onto the floor and shattered (it was made of glass).\nLuckily no one is injured, but the chandelier is damaged beyond repair.\n"  
+	}
 
-
+### 3. Llamar a servicios ex
 
 
 
@@ -70,5 +76,5 @@ Un ejemplo de extracción e interpretación
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjY5NjYwLDkwODExNDg5N119
+eyJoaXN0b3J5IjpbMTUyNzA2ODE1OCw5MDgxMTQ4OTddfQ==
 -->
