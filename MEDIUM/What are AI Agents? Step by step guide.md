@@ -97,8 +97,11 @@ Es conveniente reflejar el razonamiento.
 - langFlow
 - Python
 
+## Las tres leyes de los agentes IA
 
-
+1. El agente debe poder completar un trabajo de principio a fin sin ayuda humana.
+2. El agente debe poder seguir reglas que aseguren que el proceso es seguro.
+3. El agente debe poder 
 
 
 
@@ -107,6 +110,6 @@ Es conveniente reflejar el razonamiento.
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzcxNDU3LC0xMjIwNDM4NzI0LDkwOD
-ExNDg5N119
+eyJoaXN0b3J5IjpbMTQ2NTExODk0MywtMTIyMDQzODcyNCw5MD
+gxMTQ4OTddfQ==
 -->
