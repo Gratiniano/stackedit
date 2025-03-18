@@ -101,7 +101,7 @@ Es conveniente reflejar el razonamiento.
 
 1. El agente debe poder completar un trabajo de principio a fin sin ayuda humana.
 2. El agente debe poder seguir reglas que aseguren que el proceso es seguro.
-3. El agente debe poder 
+3. El agente debe poder usar razonamiento y confianza para asegurar el nivel más alto posible de certeza.
 
 
 
@@ -110,6 +110,6 @@ Es conveniente reflejar el razonamiento.
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTExODk0MywtMTIyMDQzODcyNCw5MD
+eyJoaXN0b3J5IjpbLTU4OTI0NDcyNiwtMTIyMDQzODcyNCw5MD
 gxMTQ4OTddfQ==
 -->
