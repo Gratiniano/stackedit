@@ -79,7 +79,11 @@ Para proporcionar estas reglas usaremos una **base de datos vectorial** mediante
 
 Es conveniente reflejar el razonamiento.
 - para fundamentar la respuesta al cliente.
-- para ayudar a los ajustes
+- para ayudar a los ajustes de ingeniería.
+- para comprobaciones
+
+#### Confianza
+Si el modelo estima su confiaza, se puede configura
 
 
 
@@ -90,6 +94,6 @@ Es conveniente reflejar el razonamiento.
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMwNTI0NTksLTEyMjA0Mzg3MjQsOT
-A4MTE0ODk3XX0=
+eyJoaXN0b3J5IjpbMzk0NTEzMDk5LC0xMjIwNDM4NzI0LDkwOD
+ExNDg5N119
 -->
