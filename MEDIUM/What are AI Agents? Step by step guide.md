@@ -71,7 +71,8 @@ Un ejemplo de extracción e interpretación
 
 ![](https://miro.medium.com/v2/resize:fit:1050/1*UjA1UCxseKtTDiZWDjmVWg.png)
 
-###
+### 4. Evaluación, RAG, razonamiento y confianza
+
 
 
 
@@ -82,5 +83,5 @@ Un ejemplo de extracción e interpretación
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2MDAwNjkyLDkwODExNDg5N119
+eyJoaXN0b3J5IjpbLTEyMjA0Mzg3MjQsOTA4MTE0ODk3XX0=
 -->
