@@ -86,8 +86,9 @@ Es conveniente reflejar el razonamiento.
 
 - Si el modelo estima su confianza, se puede establecer un umbral por debajo del cual los casos necesitarán un soporte humano.
 - Un umbral de confianza alto garantiza errores mínimos pero mayor procesamiento manual.
-- Un umbral de confianza bajo
+- Un umbral de confianza bajo permite que más casos se procesen automáticamente pero con un mayor riesgo de errores.
 
+![](https://miro.medium.com/v2/resize:fit:1500/1*-kJEBbVKpueHaNxEmvlLXw.png)
 
 
 
@@ -97,6 +98,6 @@ Es conveniente reflejar el razonamiento.
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTI2MjQ3OSwtMTIyMDQzODcyNCw5MD
+eyJoaXN0b3J5IjpbMjA1NzI5MTI0MSwtMTIyMDQzODcyNCw5MD
 gxMTQ4OTddfQ==
 -->
