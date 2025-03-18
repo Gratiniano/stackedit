@@ -64,7 +64,10 @@ Un ejemplo de extracción e interpretación
 		"claim_description":  "Yesterday [Dec-8, 2024], while playing with a friend, my 9-year-old son Rajad kicked a soccer ball against the chandelier in the living room, which then broke from its holder and fell onto the floor and shattered (it was made of glass).\nLuckily no one is injured, but the chandelier is damaged beyond repair.\n"  
 	}
 
-### 3. Llamar a servicios ex
+### 3. Llamar a servicios externos, haciendo que el contexto sea persistente
+
+- Para poder generar una respuesta suele ser necesario acceder a datos corporativos o bases de datos externas.
+- Para generar un contexto pe
 
 
 
@@ -76,5 +79,5 @@ Un ejemplo de extracción e interpretación
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzA2ODE1OCw5MDgxMTQ4OTddfQ==
+eyJoaXN0b3J5IjpbLTQ1NTI4MjQxMyw5MDgxMTQ4OTddfQ==
 -->
