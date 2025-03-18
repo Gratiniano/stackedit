@@ -33,11 +33,12 @@ Convertir los datos no estructurados en datos estructurados ayuda a que el proce
 
 ![](https://miro.medium.com/v2/resize:fit:1050/1*Q8o6a2-Fe1FbqIOS7I3EaQ.png)
 
+Un ejemplo de extracción e intetrpretación
 
 
 
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjY0MTgyNTddfQ==
+eyJoaXN0b3J5IjpbLTIxNDE3NDI1MzldfQ==
 -->
