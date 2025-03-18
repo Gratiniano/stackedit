@@ -23,8 +23,9 @@ Se usa el ejemplo del agente para el rpcoeso de seguros.
  - En base a la clasificación inicia una línea de procesamiento
  ![](https://miro.medium.com/v2/resize:fit:1500/1*CvV2Yu0Nk43LN7GUDO8JPQ.png)
  
+ ### 2. Extracci
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTMzMTVdfQ==
+eyJoaXN0b3J5IjpbLTQzMjcyMzg4M119
 -->
