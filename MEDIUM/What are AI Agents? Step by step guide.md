@@ -67,8 +67,11 @@ Un ejemplo de extracción e interpretación
 ### 3. Llamar a servicios externos, haciendo que el contexto sea persistente
 
 - Para poder generar una respuesta suele ser necesario acceder a datos corporativos o bases de datos externas.
-- Para generar un contexto pe
+- Para generar un contexto persistente, también debe poder escribirse en sistemas y bases de datos.
 
+![](https://miro.medium.com/v2/resize:fit:1050/1*UjA1UCxseKtTDiZWDjmVWg.png)
+
+###
 
 
 
@@ -79,5 +82,5 @@ Un ejemplo de extracción e interpretación
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTI4MjQxMyw5MDgxMTQ4OTddfQ==
+eyJoaXN0b3J5IjpbNzA2MDAwNjkyLDkwODExNDg5N119
 -->
