@@ -18,14 +18,20 @@ Se usa el ejemplo del agente para el rpcoeso de seguros.
 
 ### 1. Clasificación y envío de un trabajo a las líneas de procesamiento.
 
+La clasificación asigna el texto a una categoría predefinida.
+
  - El flujo de trabajo comienza cuando se recibe el mensaje de un cliente.
  - El agente analiza el contenido y determina qué quiere el cliente.
  - En base a la clasificación inicia una línea de procesamiento
  ![](https://miro.medium.com/v2/resize:fit:1500/1*CvV2Yu0Nk43LN7GUDO8JPQ.png)
  
- ### 2. Extracci
+ ### 2. Extracción de datos
+ 
+ La extracción
+Convertir los datos no estructurados en datos estructurados ayuda a que el proceso sea sistemático, seguro y protegido.
+
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjcyMzg4M119
+eyJoaXN0b3J5IjpbMjA2NzEyNDg0Nl19
 -->
