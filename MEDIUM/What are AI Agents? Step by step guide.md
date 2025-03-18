@@ -35,28 +35,19 @@ Convertir los datos no estructurados en datos estructurados ayuda a que el proce
 
 Un ejemplo de extracción e intetrpretación
 
-|Datos no estructurados|  |
-|--|--|
-| Hi,
-
-I would like to report a damage and ask you to compensate me.  
-Yesterday, while playing with a friend, my 9-year-old son Rajad kicked a soccer ball against the chandelier in the living room, which then broke from its holder and fell onto the floor and shattered (it was made of glass). |  |
-
 | datos no estructurados |
-|:--|
-|Hi, 
+|--|
+|*Hi, 
 I would like to report a damage and ask you to compensate me.    
-Yesterday, while playing with a friend, my 9-year-old son Rajad kicked a soccer ball against the chandelier in the living room, which then broke from its holder and fell onto the floor and shattered (it was made of glass).  
-  
+Yesterday, while playing with a friend, my 9-year-old son Rajad kicked a soccer ball against the chandelier in the living room, which then broke from its holder and fell onto the floor and shattered (it was made of glass).
 Luckily no one is injured, but the chandelier is damaged beyond repair.  
-  
-Attached is an invoice and some images of the destroyed chandelier.  
+Attached is an invoice and some images of the destroyed chandelier.*|  
   
 Deepak Jamal  
 contract no: HC12-223873923  
 123 Main Street  
 10008 New York City  
-(718) 123 45678 |
+(718) 123 45678* |
 ||
 
 
@@ -68,5 +59,5 @@ contract no: HC12-223873923
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzEzODQwMV19
+eyJoaXN0b3J5IjpbLTYyODU1OTg5NV19
 -->
