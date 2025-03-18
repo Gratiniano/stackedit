@@ -90,6 +90,15 @@ Es conveniente reflejar el razonamiento.
 
 ![](https://miro.medium.com/v2/resize:fit:1500/1*-kJEBbVKpueHaNxEmvlLXw.png)
 
+#### Frameworks de implementación de agentes.
+
+- CrewAi
+- langGraph,
+- langFlow
+- Python
+
+
+
 
 
 
@@ -98,6 +107,6 @@ Es conveniente reflejar el razonamiento.
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzI5MTI0MSwtMTIyMDQzODcyNCw5MD
-gxMTQ4OTddfQ==
+eyJoaXN0b3J5IjpbLTg5NzcxNDU3LC0xMjIwNDM4NzI0LDkwOD
+ExNDg5N119
 -->
