@@ -19,8 +19,12 @@ Se usa el ejemplo del agente para el rpcoeso de seguros.
 ### 1. Clasificación y envío de un trabajo a las líneas de procesamiento.
 
  - El flujo de trabajo comienza cuando se recibe el mensaje de un cliente.
- - El agente analiza 
+ - El agente analiza el contenido y determina qué quiere el cliente.
+ - En base a la clasificación inicia una línea de procesamiento
+ ![](https://miro.medium.com/v2/resize:fit:1500/1*CvV2Yu0Nk43LN7GUDO8JPQ.png)
+ 
+ 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTAxNzI0MzNdfQ==
+eyJoaXN0b3J5IjpbMTI0OTMzMTVdfQ==
 -->
