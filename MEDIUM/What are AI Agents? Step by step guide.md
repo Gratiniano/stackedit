@@ -13,7 +13,9 @@
 *Diferencias entre IA Generativa Tradicional y de Agentes*
 ![](https://miro.medium.com/v2/resize:fit:1050/1*7rWViLLiWpoHivd15UHZTQ.png)
 
+## Anatomía de un Agente de IA
+Se usa el ejemplo del agente
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjE4MDY4XX0=
+eyJoaXN0b3J5IjpbMTMxMjU4NjU0XX0=
 -->
