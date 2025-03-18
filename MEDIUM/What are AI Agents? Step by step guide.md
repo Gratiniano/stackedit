@@ -75,7 +75,11 @@ Un ejemplo de extracción e interpretación
 ### 4. Evaluación, RAG, razonamiento y confianza
 
 El correcto desempeño de los trabajos administrativos consiste en interpretar los casos entrantes en base a las reglas a aplicar.
-Pra el
+Para proporcionar estas reglas usaremos una **base de datos vectorial** mediante RAG.
+
+Es conveniente reflejar el razonamiento.
+- para fundamentar la respuesta al cliente.
+- para ayudar a los ajustes
 
 
 
@@ -86,6 +90,6 @@ Pra el
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyNjQ3MDM1LC0xMjIwNDM4NzI0LDkwOD
-ExNDg5N119
+eyJoaXN0b3J5IjpbLTIwMzMwNTI0NTksLTEyMjA0Mzg3MjQsOT
+A4MTE0ODk3XX0=
 -->
