@@ -14,8 +14,10 @@
 ![](https://miro.medium.com/v2/resize:fit:1050/1*7rWViLLiWpoHivd15UHZTQ.png)
 
 ## Anatomía de un Agente de IA
-Se usa el ejemplo del agente
+Se usa el ejemplo del agente para el rpcoeso de seguros.
+
+### 1. Clasificación y envío de un trabajo a las líneas de procesamiento.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjU4NjU0XX0=
+eyJoaXN0b3J5IjpbLTM0MDM4Mjc1NV19
 -->
