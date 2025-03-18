@@ -37,11 +37,12 @@ Un ejemplo de extracción e intetrpretación
 
 | datos no estructurados |
 |--|
-|*Hi, 
-I would like to report a damage and ask you to compensate me.    
+| 
+*Hi, 
+I would like to report a damage and ask you to compensate me.   
 Yesterday, while playing with a friend, my 9-year-old son Rajad kicked a soccer ball against the chandelier in the living room, which then broke from its holder and fell onto the floor and shattered (it was made of glass).
 Luckily no one is injured, but the chandelier is damaged beyond repair.  
-Attached is an invoice and some images of the destroyed chandelier.*|  
+Attached is an invoice and some images of the destroyed chandelier.* |  
   
 Deepak Jamal  
 contract no: HC12-223873923  
@@ -59,5 +60,5 @@ contract no: HC12-223873923
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODU1OTg5NV19
+eyJoaXN0b3J5IjpbOTA4MTE0ODk3XX0=
 -->
