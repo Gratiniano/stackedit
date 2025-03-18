@@ -83,7 +83,10 @@ Es conveniente reflejar el razonamiento.
 - para comprobaciones
 
 #### Confianza
-Si el modelo estima su confiaza, se puede configura
+
+- Si el modelo estima su confianza, se puede establecer un umbral por debajo del cual los casos necesitarán un soporte humano.
+- Un umbral de confianza alto garantiza errores mínimos pero mayor procesamiento manual.
+- Un umbral de confianza bajo
 
 
 
@@ -94,6 +97,6 @@ Si el modelo estima su confiaza, se puede configura
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NTEzMDk5LC0xMjIwNDM4NzI0LDkwOD
-ExNDg5N119
+eyJoaXN0b3J5IjpbLTI0MTI2MjQ3OSwtMTIyMDQzODcyNCw5MD
+gxMTQ4OTddfQ==
 -->
