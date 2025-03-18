@@ -27,11 +27,17 @@ La clasificación asigna el texto a una categoría predefinida.
  
  ### 2. Extracción de datos
  
- La extracción
-Convertir los datos no estructurados en datos estructurados ayuda a que el proceso sea sistemático, seguro y protegido.
+ La extracción implica la lectura e interpretación de los datos del texto.
+ 
+Convertir los datos no estructurados en datos estructurados ayuda a que el proceso sea sistemático, seguro y protegido. P.ej. normalizando el formato de los datos.
+
+![](https://miro.medium.com/v2/resize:fit:1050/1*Q8o6a2-Fe1FbqIOS7I3EaQ.png)
+
+
+
 
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzEyNDg0Nl19
+eyJoaXN0b3J5IjpbLTEwMjY0MTgyNTddfQ==
 -->
