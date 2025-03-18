@@ -71,8 +71,11 @@ Un ejemplo de extracción e interpretación
 
 ![](https://miro.medium.com/v2/resize:fit:1050/1*UjA1UCxseKtTDiZWDjmVWg.png)
 
+
 ### 4. Evaluación, RAG, razonamiento y confianza
 
+El correcto desempeño de los trabajos administrativos consiste en interpretar los casos entrantes en base a las reglas a aplicar.
+Pra el
 
 
 
@@ -83,5 +86,6 @@ Un ejemplo de extracción e interpretación
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA0Mzg3MjQsOTA4MTE0ODk3XX0=
+eyJoaXN0b3J5IjpbNDcyNjQ3MDM1LC0xMjIwNDM4NzI0LDkwOD
+ExNDg5N119
 -->
