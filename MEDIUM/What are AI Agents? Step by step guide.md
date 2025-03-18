@@ -50,17 +50,27 @@ contract no: HC12-223873923
 10008 New York City  
 (718) 123 45678* 
 
-|Resultado JSON estructurado|
-|--|
+> Hi, 
+I would like to report a damage and ask you to compensate me.   
+Yesterday, while playing with a friend, my 9-year-old son Rajad kicked a soccer ball against the chandelier in the living room, which then broke from its holder and fell onto the floor and shattered (it was made of glass).
+Luckily no one is injured, but the chandelier is damaged beyond repair.  
+Attached is an invoice and some images of the destroyed chandelier.* |  
+  
 
-    |{  
-    "name":  "Deepak",  
-    "surname":  "Jamal",  
-    "address":  "123 Main Street, 10008 New York City, NY",  
-    "phone":"+1 718 123 45678",  
-    "contract_no":  "HC12-223873923",  
-    "claim_description":  "Yesterday [Dec-8, 2024], while playing with a friend, my 9-year-old son Rajad kicked a soccer ball against the chandelier in the living room, which then broke from its holder and fell onto the floor and shattered (it was made of glass).\nLuckily no one is injured, but the chandelier is damaged beyond repair.\n"  
-    }
+    Deepak Jamal  
+    contract no: HC12-223873923  
+    123 Main Street  
+    10008 New York City  
+    (718) 123 45678
+
+    {  
+        "name":  "Deepak",  
+        "surname":  "Jamal",  
+        "address":  "123 Main Street, 10008 New York City, NY",  
+        "phone":"+1 718 123 45678",  
+        "contract_no":  "HC12-223873923",  
+        "claim_description":  "Yesterday [Dec-8, 2024], while playing with a friend, my 9-year-old son Rajad kicked a soccer ball against the chandelier in the living room, which then broke from its holder and fell onto the floor and shattered (it was made of glass).\nLuckily no one is injured, but the chandelier is damaged beyond repair.\n"  
+        }
 
 
 
@@ -74,5 +84,5 @@ contract no: HC12-223873923
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTgxOTM0Myw5MDgxMTQ4OTddfQ==
+eyJoaXN0b3J5IjpbLTE0MzE5MzQ0OTUsOTA4MTE0ODk3XX0=
 -->
