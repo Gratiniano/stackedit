@@ -297,3 +297,75 @@ llm = ChatCohere()
 
 <https://docs.crewai.com/how-to/LLM-Connections/>
 
+### Recomendaciones
+
+- Los agentes funcionan mejor cuando tienen un rol bien definido.
+- Debe centrarse el foco en objetivos y expectativas
+- Un agente puede realizar multiples tareas
+- Los agentes y tareas deberían ser **granulares**.
+- Las tareas se pueden ejecutar de diferentes formas (secuencial, parale)
+
+## Key Elements of AI agents
+
+### Elementos de un buen agente
+
+- Role Playing
+- Enfoque
+- Herramientas
+- Cooperación
+- Salvaguardas
+- Memoria
+
+### Role Playing
+
+- El rol informa al agente del contexto en el que tiene que realizar su tarea.
+- En el ejemplo asigna el rol "agente financiero certificado por FINRA" lo que tiene incidencia en cómo recupera información del RAG LLM.
+
+### Enfoque
+
+Cuando en un prompt se proporciona mucha información, muchas herramientas, etc.,  damos paso a generar confusión sobre lo que se pretende lograr.
+
+La especialización del agente permite delimitar claramente su responsabilidad, evitando *derivas*.
+
+### Herramientas
+
+Las herramientas son los conectores del agente con el entorno. P.ej. consultas en la web, ejecución de scripts python, consultas a bbdd, invocación de servicios, etc.
+
+Proporcionar demasiadas herramientas genera confusión, el sistema puede no saber cual es la herramienta adecuada en cada momento.
+
+### Cooperación
+
+- Realimentación
+- Delegación de tareas
+
+### Salvaguardas (Guardrails)
+
+El uso de entradas, transformaciones y salidas difusas genera la posibilidad de bloqueos en un entorno multiagente, habitualmente en el acceso a las herramientas, o alucinaciones.
+El framework y/o la plataforma deben proporcionar funcionalidad para evitarlo.
+
+### Memoria
+
+Es la capacidad del agente para recordar lo que ha hecho en el pasado, aprender de ello y usarlo, en vez de que cada ejecución dependa exclusivamente de los datos proporcionados.
+**CrewAI** proporciona 3 tipos de memoria:
+    - Memoria a largo plazo (Long-term memory)
+    - Memoria a corto plazo (Short-term memory)
+    - Memoria de entidad (Entity Memory)
+
+El uso combinado de estos tres tipos de memoria permite que los resultados sean cada vez más precisos y consistentes a lo largo de multiples ejecuciones.
+
+#### Memoria a corto plazo
+
+- Se reinicia con cada nueva ejecución de una tarea.
+- Es compartida entre todos los agentes del grupo.
+
+#### Memoria a largo plazo (Long-term memory)
+
+- se almacena en una base de datos local.
+- permite a los agentes aprender de ejecuciones anteriores.
+- ayuda a los agentes a autoevaluarse.
+
+#### Memoria de entidad (Entity Memory)
+
+- es de corta duración
+- almacena **que son** los sujetos sobre los que se está trabajando( personas, organizaciones, etc.)
+
