@@ -6,7 +6,9 @@ Ejemplo: Sistema multiagente para conseguir y preparar entrevistas de trabajo IT
 
 ### ¿Qué es la Automatizacion mediante agentes?
 
-- La automatización determinista mediante código tiene a complicarse conforme se añaden condiciones.
+La automatización determinista tradicional consiste en la evaluación de una serie de reglas que tiende a complicarse conforme se añaden condiciones.
+La automatización mediante IA simplemente añade las reglas y deja a la IA subyacente que las aplique.
+El uso de agentes IA ayuda a separar responsabilidades y, por tanto, poder definir mejor cómo se afronta cada tarea.
 
 #### Diferencias entre el desarrollo tradicional y el desarrollo AI
 
@@ -23,7 +25,7 @@ Ejemplo: Sistema multiagente para conseguir y preparar entrevistas de trabajo IT
 
 En la **aproximación tradicional** se aplican una serie de reglas a posibles clientes que han conectado con una empresa a través de su formulario de contacto para realizarles ofertas.
 
-En la **aproximación mediante agentes IA** se puede tener un grupo de agentes que **investiguen** (research) sobre los potenciales clientes, los comparen con los clientes actuales (comparasion), los puntuen (scoring) y determinen qué temas les pueden interesar (talking points)
+En la **aproximación mediante agentes IA** se puede tener un grupo de agentes que **investiguen** (research) sobre los potenciales clientes, los comparen con los clientes actuales (comparation), los puntuen (scoring) y determinen qué temas les pueden interesar (talking points)
 
 ![alt text](image.png)
 
@@ -47,14 +49,14 @@ Varios agentes en el sistema, que pueden asignarse tareas entre ellos.
 
 ### CrewAI
 
-Es un framework y plataforma
+Es un framework y plataforma para la definición y orquestación de agentes AI.
 
 - permite dividir estos conceptos en estructuras simples.
 - proporciona un patrón para unir estos sistemas.
 - proporciona herramientas/habilidades para el uso de agentes.
 - proporciona un modelo para construir herramientas o agentes personalizados.
 
-#### Bloques iniciales
+#### Bloques iniciales de crewAI
 
 - Agentes
 - Tareas
@@ -86,7 +88,7 @@ os.environ["OPENAI_MODEL_NAME"] = 'gpt-3.5-turbo'
 
 ### Creación de los agentes
 
-Cada agente debe tener definidos
+Cada agente debe tener definidos los siguientes atributos:
 
 - **role** : el rol que desempeñará el agente
 - **goal**: objetivo del agente
@@ -167,9 +169,9 @@ editor = Agent(
 
 Las tareas deben presentar los siguientes atributos:
 
+- **description**: especifica con más detalle qué y cómo se quiere que haga la tarea.Son las "instrucciones" detalladas que le damos al agente.
+- **expected_output**: la salida esperada de la tarea. Actua cómo una función *de fuerza* para obligarte a pensar, con precisión, qué quieres obtener.
 - **agent**: el agente al que está asignada
-- **description**: especifica con más detalle qué y cómo se quiere que haga la tarea.Son las instrucciones detalladas que le damos al agente.
-- **expected_output**: la salida esperada de la tarea. Actua cómo una función *de fuerza* para obligarte a pensar qué quieres, exactamente, obtener.
 
 #### Tarea Planificar/Investigar
 
@@ -249,12 +251,14 @@ crew = Crew(
 
 ```python
 result = crew.kickoff(inputs={"topic": "Artificial Intelligence"})
-
+# mostramos el resultado obtenido
 from IPython.display import Markdown
 Markdown(result)
 ```
 
 ### Usar otros modelos de LLM populares
+
+En el ejemplo se ha forzado el uso de 'gpt-3.5-turbo', el LLM por defecto es 'gpt-4', pero pueden usarse otros. 
 
 #### Hugging Face
 
@@ -292,3 +296,4 @@ llm = ChatCohere()
 ### Uso de otras LLMs o LLMs en local
 
 <https://docs.crewai.com/how-to/LLM-Connections/>
+
